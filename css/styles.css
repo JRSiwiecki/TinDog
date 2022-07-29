@@ -1,0 +1,187 @@
+/***** TAG SELECTORS *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+/***** CLASS AND ID SELECTORS *****/
+
+/* Sections */
+
+.colored-section {
+  background-color: #FF4C68;
+  color: #FFF;
+}
+
+.white-section {
+  background-color: #FFF;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Header */
+.header-custom {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 2% 15% 8%;
+}
+
+#title {
+  position: relative;
+  z-index: 0;
+}
+
+.title-img {
+  position: absolute;
+  right: 25%;
+  transform: rotate(25deg);
+  width: 20%;
+  z-index: 1;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features  */
+#features {
+  text-align: center;
+  padding: 2% 8%;
+  position: relative;
+  z-index: 1;
+}
+
+.features-icon {
+  color: #EF8172;
+  font-size: 3rem;
+  margin: 2% 2%;
+}
+
+.features-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.features-icon:hover {
+  color: #FF4C68;
+}
+
+/* Testimonials */
+.testimonial-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+#testimonials {
+  background-color: #EF8172;
+  text-align: center;
+  padding: 3% 8%;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonal-text {
+  font-weight: bold;
+  height: 100%;
+}
+
+/* Press */
+#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding: 2% 8%;
+}
+
+.press-img {
+  margin: 20px 30px 50px;
+  width: 15%;
+}
+
+/* Pricing */
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-heading {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call to Action */
+#cta {
+  text-align: center;
+  padding: 4% 15%;
+}
+
+.cta-text {
+  font-size: 3rem;
+  font-weight: bolder;
+  padding: 2% 10%;
+}
+
+.cta-btn {
+  font-size: 1.5rem;
+  margin: 5% 3% 5% 0;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 3% 10%;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  padding: 1% 1%;
+}
+
+.copyright-text {
+  color: gray;
+}
